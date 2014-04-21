@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearCustomItem"
+    android:layout_width="450sp"
+    android:layout_height="700sp"
+    android:orientation="vertical" 
+    android:background="#34495e"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/textViewDateCustomGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="20sp"
+        android:textColor="#ecf0f1"
+        android:textSize="35sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionCustomGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Sky is Clear"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ecf0f1" />
+
+    <ImageView
+        android:id="@+id/imageViewIconCustomGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="20sp"
+        android:contentDescription="ImageViewIconCD" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+        
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="20sp"
+        android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/textViewLabelTempMax"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="20sp"
+                 android:text="Temp Max"
+                 android:textSize="25sp"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="#ecf0f1" />
+
+        <TextView
+            android:id="@+id/textViewLabelTempMin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Temp Min"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+        
+        <TextView
+            android:id="@+id/textViewLabelTempDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Temp Day"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+        
+        <TextView
+            android:id="@+id/textViewLabelTempMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Temp Morn"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+
+        <TextView
+            android:id="@+id/textViewLabelTempEve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Temp Eve"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+        
+        <TextView
+            android:id="@+id/textViewLabelTempNight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Temp Night"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+        
+        <TextView
+            android:id="@+id/textViewLabelWindSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Wind Speed"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+        
+        <TextView
+            android:id="@+id/textViewLabelHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Humidity"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+
+        <TextView
+            android:id="@+id/textViewLabelClouds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="Clouds"
+            android:textSize="25sp"
+            android:layout_marginBottom="20sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ecf0f1" />
+            </LinearLayout>
+            
+           <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="20sp"
+        android:orientation="vertical">
+
+               <TextView
+                   android:id="@+id/textViewValueTempMax"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="20sp"
+                   android:text="35"
+                   android:textSize="25sp"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:textColor="#ecf0f1" />
+        
+         <TextView
+        android:id="@+id/textViewValueTempMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textColor="#ecf0f1"
+        android:textSize="25sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+          <TextView
+        android:id="@+id/textViewValueTempDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textColor="#ecf0f1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+           <TextView
+        android:id="@+id/textViewValueTempMorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textColor="#ecf0f1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+           
+            <TextView
+        android:id="@+id/textViewValueTempEve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textColor="#ecf0f1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+             <TextView
+        android:id="@+id/textViewValueTempNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textColor="#ecf0f1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+             
+             
+             
+         <TextView
+             android:id="@+id/textViewValueWindSpeed"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20sp"
+             android:text="2.8"
+             android:textSize="25sp"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#ecf0f1" />
+
+         <TextView
+             android:id="@+id/textViewValueHumidity"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10sp"
+             android:text="2.8"
+             android:textSize="25sp"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#ecf0f1" />
+         
+         <TextView
+             android:id="@+id/textViewValueClouds"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10sp"
+             android:text="2.8"
+             android:textSize="25sp"
+              android:layout_marginBottom="20sp"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#ecf0f1" />
+            </LinearLayout>
+            
+    </LinearLayout>
+
+    
+    
+</LinearLayout>

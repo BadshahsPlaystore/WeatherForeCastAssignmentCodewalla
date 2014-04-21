@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400sp"
+    android:layout_height="300sp"
+    android:alpha="0.8"
+    android:background="#ecf0f1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="80sp"
+        android:background="#1bc2a1"
+        android:orientation="horizontal" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textTitleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ecf0f1"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="20sp"
+        android:padding="10sp"
+        android:text="Medium Text set defaulu address"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#34495e"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttondialog"
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:textColor="#ecf0f1"
+        android:background="#34495e"
+        android:text="OK"
+        android:textSize="25sp" />
+
+</LinearLayout>
